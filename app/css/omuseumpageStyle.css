@@ -14,8 +14,27 @@ body
         background: #D98829;
         border-radius: 50px;
     }
-#styleTextBlockTwo{
-    position: absolute;
-    color: #000000;
-    mix-blend-mode: normal;
-}
+#blockOneOMuseum
+    {
+        position: static;
+        width: 1388px;
+        height: 256px;
+        left: 33px;
+        top: 574px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#styleTextBlockTwo
+    {
+        position: absolute;
+        color: #000000;
+        mix-blend-mode: normal;
+        font-size: xx-large;
+    }
+#styleTextBlockOne
+    {
+        position: static;
+        color: #000000;
+        mix-blend-mode: normal;
+        font-size: xx-large;
+    }
