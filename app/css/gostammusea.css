@@ -4,18 +4,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-.roof
-    {
-        
-        position: absolute;
-        width: 1440px;
-        height: 173px;
-        left: 0px;
-        top: 0px; 
-        background-repeat: no-repeat;
-        background-size:cover;
-        background: url(../sourse/image/roof.png);
-    }
+
 .title
     {
         position: absolute;
@@ -23,18 +12,6 @@
         mix-blend-mode: normal;
         font-size: 47%;
         
-    }
-.les
-    {
-        position:absolute; 
-        width: 262px;
-        height: 313px;
-        left: 61px;
-        top: 199px;
-        background-image: url("../sourse/image/lestnica.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-
     }
 #block1
     {
@@ -118,6 +95,76 @@
         height: 146px;
         left: 1061px;
         top: 805px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+.les
+    {
+        position:absolute; 
+        width: 262px;
+        height: 313px;
+        left: 61px;
+        top: 199px;
+        background-image: url("../sourse/image/lestnica.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.roof
+    {
+        
+        box-sizing: border-box;
+        position: absolute;
+        width: 1400px;
+        height: 173px;
+        left: 0px;
+        top: 0px;
+        background: url(image.png);
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background: url(../sourse/image/roof.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.house
+    {
+        position: absolute;
+        width: 231px;
+        height: 322px;
+        left: 477px;
+        top: 190px;
+        background: url(../sourse/image/house360.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+.bighouse
+    {
+        position: absolute;
+        width: 562px;
+        height: 316px;
+        left: 822px;
+        top: 197px;
+        background: url(../sourse/image/bigHouse.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+.crismastree
+    {
+        position: absolute;
+        width: 518px;
+        height: 364px;
+        left: 24px;
+        top: 1022px;
+        background: url(../sourse/image/crismastree.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+#block7
+    {
+        position: absolute;
+        width: 546px;
+        height: 197px;
+        left: 24px;
+        top: 1419px;
         background: #D98829;
         border-radius: 50px;
     }
