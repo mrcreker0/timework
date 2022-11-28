@@ -19,11 +19,10 @@ body
     {
         text-decoration: none;
         display: block;
-        padding: 30px;
         font-family: Comic Sans MS, Comic Sans, cursive;
         font-size: 250%;
-        padding-right: 35%;
-        padding-left: 35%;
+        padding-right: 25%;
+        padding-left: 25%;
         color: rgb(0, 0, 0);
     }
 .navigation img
@@ -80,13 +79,97 @@ h2
         font-size: 250%;
         color: rgb(0, 0, 0);
     }
-img1
+.window
+    {
+        position: absolute;
+        display: block;
+        font-size: 1.8em;
+        right: 5%;
+        top: 65%;
+        margin: 0;
+        list-style-type: none;
+        flex-flow: row wrap;
+        z-index: 1;
+    }
+.img1{
+        position: absolute;
+        width: 381px;
+        height: 351px;
+        left: 90px;
+        top: 582px;
+        background: url(../sourse/image/wind1.jpg); /* Прописываем путь к файлу */
+        background-repeat: no-repeat; /* Не повторяем */
+        background-size: cover; /* Размер фона */
+        background-position: center; /* Позиция картинкипо центру */
+        display: block; 
+        z-index: 2;
+      }
+.img2{       
+        position: absolute;
+        width: 456px;
+        height: 411px;
+        left: 52px;
+        top: 535px;
+        top: 550px;
+        background: url(../sourse/image/rama.png); /* Прописываем путь к файлу */
+        background-repeat: no-repeat; /* Не повторяем */
+        background-size: cover; /* Размер фона */
+        background-position: center; /* Позиция картинкипо центру */
+        display: block; 
+        z-index: 3;
+      }
+.img3{
+        position: absolute;
+        width: 407px;
+        height: 361px;
+        left: 666px;
+        top: 596px;
+        background: url(../sourse/image/wind2.jpg); /* Прописываем путь к файлу */
+        background-repeat: no-repeat; /* Не повторяем */
+        background-size: cover; /* Размер фона */
+        background-position: center; /* Позиция картинкипо центру */
+        display: block; 
+        z-index: 2;
+      }
+.img4{
+        position: absolute;
+        width: 456px;
+        height: 411px;
+        left: 642px;
+        top: 552px;
+        background: url(../sourse/image/rama.png); /* Прописываем путь к файлу */
+        background-repeat: no-repeat; /* Не повторяем */
+        background-size: cover; /* Размер фона */
+        background-position: center; /* Позиция картинкипо центру */
+        display: block; 
+        z-index: 3;
+      }
+.footerr
+      {
+        display: flex;
+        background-image: url(../sourse/image/cherpitsafon.png);
+        justify-content: justify;
+        align-items: center;
+        margin-top: 550px;
+        flex-flow: row wrap;
+      }
+.footerr a
+      {
+        text-decoration: none;
+        display: block;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 150%;
+        padding-right: 5%;
+        padding-left: 48%;
+        color: rgb(255, 255, 255);
+      }
+.footerr img
     {
         display: block; 
-        float: right;
-        z-index: 2;
-        padding-right: 85%;
-        padding-top: 50%;
-        height: 100px;
-        width: 100px;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 3%; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+        z-index: 3;
     }
