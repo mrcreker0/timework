@@ -1,0 +1,206 @@
+body
+    {
+        background-image: url(../sourse/image/fonOMuseum.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.title
+    {
+        position: absolute;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        font-size: 47%;
+        
+    }
+
+#block1
+    {
+        position: absolute;
+        width: 367px;
+        height: 167px;
+        left: 24px;
+        top: 530px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#textblock1
+    {
+        position: absolute;
+        top: -20%;
+        margin-left:10%;
+        font-style: normal;
+        font-family: 'Book Antiqua';
+        mix-blend-mode: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 77px;
+        color: #000000;
+    }
+#textblock2
+    {
+        position: absolute;
+        font-style: normal;
+        font-family: 'Book Antiqua';
+        mix-blend-mode: normal;
+        top: 5%;
+        font-weight: 350;
+        font-size: 30px;
+        line-height: 43px;
+        color: #000000;
+    }
+#block2
+    {
+        position: absolute;
+        width: 367px;
+        height: 238px;
+        left: 415px;
+        top: 538px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#block3
+    {
+        position: absolute;
+        width: 607px;
+        height: 104px;
+        left: 795px;
+        top: 530px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#block4
+    {
+        position: absolute;
+        width: 357px;
+        height: 146px;
+        left: 24px;
+        top: 805px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#block5
+    {
+        position: absolute;
+        width: 464px;
+        height: 146px;
+        left: 557px;
+        top: 805px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+#block6
+    {
+        position: absolute;
+        width: 357px;
+        height: 146px;
+        left: 1061px;
+        top: 805px;
+        background: #D98829;
+        border-radius: 50px;
+    }
+.roof
+    {
+        
+        position: absolute;
+        width: 1517px;
+        height: 173px;
+        left: 0px;
+        top: 0px; 
+        background: url(../sourse/image/roof.png); 
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+.les
+    {
+        position:absolute; 
+        width: 262px;
+        height: 313px;
+        left: 61px;
+        top: 199px;
+        background-image: url("../sourse/image/lestnica.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.house
+    {
+        position: absolute;
+        width: 231px;
+        height: 322px;
+        left: 489px;
+        top: 197px;
+        background-image: url("../sourse/image/house.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.bighouse
+    {
+        position: absolute;
+        width: 562px;
+        height: 316px;
+        left: 822px;
+        top: 197px;
+        background: url("../sourse/image/bighouse.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.crismastree
+    {
+        position: absolute;
+        width: 518px;
+        height: 364px;
+        left: 24px;
+        top: 1022px;
+        background: url("../sourse/image/crismastree.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.something
+    {
+        position: absolute;
+        width: 1517px;
+        height: 160px;
+        left: 0px;
+        top: 1999.5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background: url(../sourse/image/something.png);
+        
+    }
+#text
+    {
+        text-align: center;
+        mix-blend-mode: normal;
+        font-family: 'Book Antiqua';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 20px;
+        color: #FFFFFF;
+       
+    }
+    a:link
+    {
+        text-decoration: none;
+        color: #ffffff;
+    }    
+     a:active 
+     {
+        color:#ffffff;
+        text-decoration:none
+    }
+        
+        a:visited 
+    {
+         color:#ffffff;
+        text-decoration:none
+    }
+        
+        a:hover 
+    {
+        color:#ffffff;
+        text-decoration: underline
+    }

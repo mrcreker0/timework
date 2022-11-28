@@ -1,0 +1,12 @@
+#info
+{
+    background-color: black;
+    color: white;
+    width: 200px;
+    min-height: 100%;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    right: 15%;
+    top: 0%;
+}
