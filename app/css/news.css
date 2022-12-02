@@ -1,0 +1,131 @@
+body
+    {
+        background-image: url(../sourse/image/fonOMuseum.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.high
+    {
+        position: absolute;
+        width: 1517px;
+        height: 145px;
+        left: 0px;
+        top: 0px;
+        background: url(../sourse/image/high.png);
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.photo1
+    {
+        position: absolute;
+        width: 390px;
+        height: 260px;
+        left: 37px;
+        top: 167px;
+        background: url(../sourse/image/photo1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.photo2
+    {
+        position: absolute;
+        width: 390px;
+        height: 278px;
+        left: 37px;
+        top: 443px;
+        background: url(../sourse/image/photo2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.photo3
+    {
+        position: absolute;
+        width: 393px;
+        height: 260px;
+        left: 1002px;
+        top: 169px;
+        background: url(../sourse/image/photo3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.photo4
+    {
+        position: absolute;
+        width: 393px;
+        height: 278px;
+        left: 1002px;
+        top: 443px;
+        background: url(../sourse/image/photo4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+#block
+    {
+        position: absolute;
+        width: 526px;
+        height: 552px;
+        left: 452px;
+        top: 167px;
+        background: #EA9A22;
+        border-radius: 70px;
+    }
+#text
+    {
+        position: absolute;
+        left: 10%;
+        font-family: 'Book Antiqua';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+    }
+.roof1
+    {
+        position: absolute;
+        width: 1517px;
+        height: 127px;
+        left: 0px;
+        top: 868px;
+        background: url(../sourse/image/roof1.png);
+        transform: rotate(-180deg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+#text1
+    {
+        text-align: center;
+        mix-blend-mode: normal;
+        font-family: 'Book Antiqua';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 20px;
+        color: #FFFFFF;
+        transform: rotate(-180deg);
+       
+    }
+    a:link
+    {
+        text-decoration: none;
+        color: #ffffff;
+    }    
+     a:active 
+     {
+        color:#ffffff;
+        text-decoration:none
+    }
+        
+        a:visited 
+    {
+         color:#ffffff;
+        text-decoration:none
+    }
+        
+        a:hover 
+    {
+        color:#ffffff;
+        text-decoration: underline
+    }

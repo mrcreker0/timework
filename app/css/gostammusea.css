@@ -164,7 +164,7 @@ body
         width: 1517px;
         height: 160px;
         left: 0px;
-        top: 1999.5px;
+        top: 1700px;
         background-repeat: no-repeat;
         background-size: contain;
         background: url(../sourse/image/something.png);
@@ -203,4 +203,14 @@ body
     {
         color:#ffffff;
         text-decoration: underline
+    }
+#block7
+    {
+        position: absolute;
+        width: 546px;
+        height: 197px;
+        left: 10px;
+        top: 1419px;
+        background: #D98829;
+        border-radius: 50px;
     }
