@@ -4,6 +4,35 @@ body
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .navigation
+    {
+        display: flex;
+        background-image: url(../sourse/image/fundamentfon.jpg);
+        justify-content: justify;
+        align-items: center;
+        margin: 0;
+        flex-flow: row wrap;
+    }
+.navigation a
+    {
+        text-decoration: none;
+        display: block;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 250%;
+        padding-right: 25%;
+        padding-left: 25%;
+        color: rgb(0, 0, 0);
+    }
+.navigation img
+    {
+        display: block; 
+        float: left; /* Выстраиваем элементы по горизонтали
+    margin: 0 0 0 3.5%; /* Отступ слева
+    background: #f0f0f0; /* Цвет фона 
+    border-radius: 5px; /* Радиус скругления 
+    padding: 2%; /* Поля */
+        z-index: 3;
+    }
     .roof
     {
         
@@ -86,4 +115,23 @@ body
     {
         color:#ffffff;
         text-decoration: underline
+    }
+    .footerr
+    {
+      display: flex;
+      background-image: url(../sourse/image/cherpitsafon.png);
+      justify-content: justify;
+      align-items: center;
+      margin-top: 900px;
+      flex-flow: row wrap;
+    }
+.footerr a
+    {
+      text-decoration: none;
+      display: block;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      font-size: 200%;
+      padding-right: 5%;
+      padding-left: 45%;
+      color: rgb(255, 255, 255);
     }
