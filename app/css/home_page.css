@@ -73,7 +73,10 @@ h2
     {
         text-decoration: none;
         display: block;
-        padding: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0;
+        padding-bottom: 50px;
         text-align: center;
         font-family: Comic Sans MS, Comic Sans, cursive;
         font-size: 250%;
