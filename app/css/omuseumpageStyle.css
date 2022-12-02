@@ -4,37 +4,75 @@ body
         background-repeat: no-repeat;
         background-size: cover;
     }
-#blockTwoOMuseum
+.navigation
+    {
+        display: flex;
+        background-image: url(../sourse/image/fundamentfon.jpg);
+        justify-content: justify;
+        align-items: center;
+        margin: 0;
+        flex-flow: row wrap;
+    }
+.navigation a
+    {
+        text-decoration: none;
+        display: block;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 250%;
+        padding-right: 25%;
+        padding-left: 25%;
+        color: rgb(0, 0, 0);
+    }
+.navigation img
+    {
+        display: block; 
+        float: left; /* Выстраиваем элементы по горизонтали
+    margin: 0 0 0 3.5%; /* Отступ слева
+    background: #f0f0f0; /* Цвет фона 
+    border-radius: 5px; /* Радиус скругления 
+    padding: 2%; /* Поля */
+        z-index: 3;
+    }
+    h2
+    {
+        text-decoration: none;
+        display: block;
+        padding: 30px;
+        text-align: center;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        background-color: #D98829;
+        font-size: 150%;
+        color: rgb(0, 0, 0);
+    }
+
+    .something
     {
         position: absolute;
-        width: 1388px;
-        height: 256px;
-        left: 33px;
-        top: 574px;
-        background: #D98829;
-        border-radius: 50px;
+        width: 1517px;
+        height: 160px;
+        left: 0px;
+        top: 1999.5px;
+        margin-top: 700px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background: url(../sourse/image/something.png);
     }
-#blockOneOMuseum
-    {
-        position: static;
-        width: 1388px;
-        height: 256px;
-        left: 33px;
-        top: 574px;
-        background: #D98829;
-        border-radius: 50px;
-    }
-#styleTextBlockTwo
-    {
-        position: absolute;
-        color: #000000;
-        mix-blend-mode: normal;
-        font-size: xx-large;
-    }
-#styleTextBlockOne
-    {
-        position: static;
-        color: #000000;
-        mix-blend-mode: normal;
-        font-size: xx-large;
-    }
+    .footerr
+      {
+        display: flex;
+        background-image: url(../sourse/image/cherpitsafon.png);
+        justify-content: justify;
+        align-items: center;
+        margin-top: 550px;
+        flex-flow: row wrap;
+      }
+.footerr a
+      {
+        text-decoration: none;
+        display: block;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 150%;
+        padding-right: 5%;
+        padding-left: 45%;
+        color: rgb(255, 255, 255);
+      }
